@@ -150,7 +150,7 @@ padding: 10px;
 font-weight: bold;
 }
 
-@media (max-width:768px){
+@media (min-width: 320px) and (max-width:768px){
 header #brand,
 header nav, 
 header nav li
