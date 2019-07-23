@@ -149,8 +149,11 @@ background-color: rgb(153, 4, 4);
 padding: 10px;
 font-weight: bold;
 }
-
-@media (min-width: 320px) and (max-width:680px){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 650px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
 header #brand,
 header nav, 
 header nav li
