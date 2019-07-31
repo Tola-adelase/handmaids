@@ -152,9 +152,7 @@ font-weight: bold;
 
 @media only screen 
   and (min-width: 365px) 
-  and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+  and (max-width: 667px){
     body {
         background-color: lightgreen;
       }
